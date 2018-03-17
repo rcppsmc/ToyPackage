@@ -1,0 +1,6 @@
+useDynLib("ToyExample", .registration=TRUE)
+
+importFrom("Rcpp", "evalCpp")
+import("RcppSMC")
+
+export("logNormWeights")
